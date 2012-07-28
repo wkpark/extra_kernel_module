@@ -1,3 +1,17 @@
+/*
+ * CPU frequency & voltage control for Motorola 3.0.8 kernel
+ *
+ * Copyright (C) 2012 Project Lense (@whirleyes)
+ *
+ * Based on
+ *  - Motorola Milestone overclock module (by Tiago Sousa <mirage@kaotik.org>, modified by nadlabak, Skrilax_CZ)
+ *  - opptimizer module by Jeffrey Kawika Patricio <jkp@tekahuna.net>
+ *	
+ * License: GNU GPLv3
+ * <http://www.gnu.org/licenses/gpl-3.0.html>
+ *
+ */
+
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/init.h>
